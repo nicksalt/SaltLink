@@ -1,0 +1,129 @@
+body {
+    background-color: #31415D;
+    width: 350px;
+    color: white;
+}
+
+.wrapper {
+    margin: 16px;
+    height: 376px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.personal-logo {
+    width: 80px;
+    height: auto;
+}
+
+.title {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.title>span {
+    color: #CF6766;
+}
+
+.form-label {
+    color: white;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 8px;
+    height: auto !important;
+    width: 100%;
+
+    display: inline-block;
+}
+
+#description {
+    resize: none;
+}
+
+.form-control {
+    height: auto;
+}
+
+.link {
+    display: flex;
+}
+
+#url {
+    margin-right: 4px;
+    flex-grow: 2;
+}
+
+.btn-update {
+    background-color: #31415D;
+    color: #CF6766;
+    border: 1px solid #CF6766;
+    flex-grow: 1;
+}
+
+.btn-update:hover {
+    background-color: #CF6766;
+    color: #31415D;
+}
+
+
+.go-to-link {
+    text-align: center;
+}
+
+.btn-go-to-link {
+    margin: 16px;
+
+    background-color: #CF6766;
+    color: #31415D !important;
+    border: 1px solid #CF6766;
+}
+.btn-go-to-link:hover{
+
+    color: #31415D;
+}
+
+.tabs {
+    width: 100%;
+    justify-content: center;
+    align-items: stretch;
+    display: flex;
+    background: grey;
+    height: 40px;
+    background-color: #31415D;
+    cursor: pointer;
+}
+
+.tab {
+    width: 33.3333333%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #CF6766;
+}
+.tab:hover{
+    color: #CF6766;
+}
+
+.selected {
+    background-color: #CF6766;
+    border: 1px solid #31415D;
+}
+
+.selected:hover{
+    color: white !important;
+}
